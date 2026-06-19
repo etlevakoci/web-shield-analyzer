@@ -20,7 +20,3 @@ A pure Java console application that evaluates web pages for critical configurat
 
 ---
 
-## 📁 Project Structure
-
-```text
-└── SecurityScanner.java     # Main application file containing validation and scanning logic
