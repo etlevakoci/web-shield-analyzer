@@ -1,10 +1,10 @@
-# Web Security Header Analyzer 🛡️☕
+# Web Security Header Analyzer 
 
 A pure Java console application that evaluates web pages for critical configuration vulnerabilities. By analyzing server responses and HTTP security headers, this tool identifies protocol weaknesses, clickjacking exposures, and sensitive information leakage.
 
 ---
 
-## 🌟 Core Features
+##  Core Features
 
 * **Smart URL Validation:** Automatically normalizes inputs (e.g., adds `http://` if missing) and validates the URL syntax prior to scanning to ensure stability.
 * **Data Transmission Audit:** Evaluates whether connection protocols use transport layer encryption (`HTTPS/TLS`) to safeguard data from sniffing attacks.
@@ -13,7 +13,7 @@ A pure Java console application that evaluates web pages for critical configurat
 
 ---
 
-## 🛠️ Requirements & Tech Stack
+##  Requirements & Tech Stack
 
 * **Language:** Java (JDK 8 or higher)
 * **Dependencies:** None! Built entirely using Java's native standard libraries (`java.net.HttpURLConnection`, `java.util.Scanner`).
